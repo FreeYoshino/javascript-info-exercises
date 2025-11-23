@@ -1,6 +1,6 @@
 # javascript-info-exercises
 
-記錄我的 JavaScript 與 Node.js 學習歷程。
+記錄我的 JavaScript 學習歷程。
 包含 javascript.info 的課後練習題。
 
 歡迎來到我的學習倉庫！
