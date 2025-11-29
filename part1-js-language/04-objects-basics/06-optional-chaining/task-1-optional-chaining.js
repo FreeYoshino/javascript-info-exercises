@@ -15,7 +15,7 @@ const user2 = {
 function printStreet(user) {
   // ❌ 錯誤寫法：這裡很危險！如果 user.address 是 undefined，再接 .street 就會崩潰
   // 請用 ?. 改寫下面這一行，讓它變得安全
-  const street = user.address.street;
+  const street = user.address?.street;
 
   console.log(`User ${user.name} lives in ${street}`);
 }
