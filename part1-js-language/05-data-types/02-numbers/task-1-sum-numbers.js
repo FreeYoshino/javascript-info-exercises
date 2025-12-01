@@ -2,8 +2,8 @@
   Create a script that prompts the visitor to enter two numbers and then shows their sum.
 */
 
-const readline = require("node:readline/promises");
-const { stdin: input, stdout: output } = require("node:process");
+import readline from "node:readline/promises";
+import { stdin as input, stdout as output } from "node:process";
 
 const main = async () => {
   const rl = readline.createInterface({ input, output });
